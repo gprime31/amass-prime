@@ -35,13 +35,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/owasp-amass/amass/v3/config"
-	"github.com/owasp-amass/amass/v3/datasrcs"
-	"github.com/owasp-amass/amass/v3/format"
-	amassnet "github.com/owasp-amass/amass/v3/net"
-	"github.com/owasp-amass/amass/v3/requests"
-	"github.com/owasp-amass/amass/v3/resources"
-	"github.com/owasp-amass/amass/v3/systems"
+	"github.com/amass-prime/config"
+	"github.com/amass-prime/datasrcs"
+	"github.com/amass-prime/format"
+	amassnet "github.com/amass-prime/net"
+	"github.com/amass-prime/requests"
+	"github.com/amass-prime/resources"
+	"github.com/amass-prime/systems"
 	"github.com/caffix/netmap"
 	"github.com/caffix/service"
 	"github.com/caffix/stringset"
@@ -50,9 +50,9 @@ import (
 
 const (
 	mainUsageMsg         = "intel|enum|viz|track|db [options]"
-	exampleConfigFileURL = "https://github.com/owasp-amass/amass/blob/master/examples/config.ini"
-	userGuideURL         = "https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md"
-	tutorialURL          = "https://github.com/owasp-amass/amass/blob/master/doc/tutorial.md"
+	exampleConfigFileURL = "https://github.com/amass-prime/blob/master/examples/config.ini"
+	userGuideURL         = "https://github.com/amass-prime/blob/master/doc/user_guide.md"
+	tutorialURL          = "https://github.com/amass-prime/blob/master/doc/tutorial.md"
 )
 
 var (
