@@ -18,11 +18,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/owasp-amass/amass/v3/config"
-	"github.com/owasp-amass/amass/v3/datasrcs"
-	"github.com/owasp-amass/amass/v3/format"
-	"github.com/owasp-amass/amass/v3/intel"
-	"github.com/owasp-amass/amass/v3/systems"
+	"github.com/gprime31/amass-prime/config"
+	"github.com/gprime31/amass-prime/datasrcs"
+	"github.com/gprime31/amass-prime/format"
+	"github.com/gprime31/amass-prime/intel"
+	"github.com/gprime31/amass-prime/systems"
 	"github.com/caffix/stringset"
 	"github.com/fatih/color"
 )
