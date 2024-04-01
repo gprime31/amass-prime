@@ -35,13 +35,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/amass-prime/config"
-	"github.com/amass-prime/datasrcs"
-	"github.com/amass-prime/format"
-	amassnet "github.com/amass-prime/net"
-	"github.com/amass-prime/requests"
-	"github.com/amass-prime/resources"
-	"github.com/amass-prime/systems"
+	"github.com/gprime31/amass-prime/config"
+	"github.com/gprime31/amass-prime/datasrcs"
+	"github.com/gprime31/amass-prime/format"
+	amassnet "github.com/gprime31/amass-prime/net"
+	"github.com/gprime31/amass-prime/requests"
+	"github.com/gprime31/amass-prime/resources"
+	"github.com/gprime31/amass-prime/systems"
 	"github.com/caffix/netmap"
 	"github.com/caffix/service"
 	"github.com/caffix/stringset"
@@ -50,9 +50,9 @@ import (
 
 const (
 	mainUsageMsg         = "intel|enum|viz|track|db [options]"
-	exampleConfigFileURL = "https://github.com/amass-prime/blob/master/examples/config.ini"
-	userGuideURL         = "https://github.com/amass-prime/blob/master/doc/user_guide.md"
-	tutorialURL          = "https://github.com/amass-prime/blob/master/doc/tutorial.md"
+	exampleConfigFileURL = "https://github.com/gprime31/amass-prime/blob/master/examples/config.ini"
+	userGuideURL         = "https://github.com/gprime31/amass-prime/blob/master/doc/user_guide.md"
+	tutorialURL          = "https://github.com/gprime31/amass-prime/blob/master/doc/tutorial.md"
 )
 
 var (
