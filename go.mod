@@ -1,4 +1,4 @@
-module github.com/owasp-amass/amass/v3
+module github.com/gprime31/Amass_3.23.3
 
 go 1.19
 
