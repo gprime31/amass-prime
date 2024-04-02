@@ -20,7 +20,7 @@ import (
 	amassnet "github.com/gprime31/amass-prime/net"
 	"github.com/gprime31/amass-prime/requests"
 	"github.com/gprime31/amass-prime/resources"
-	"github.com/gprime31/amass-prime/resolve"
+	"github.com/owasp-amass/resolve"
 )
 
 // LocalSystem implements a System to be executed within a single process.
