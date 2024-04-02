@@ -52,10 +52,11 @@ The volume argument allows the Amass graph database to persist between execution
 
 ### From Sources
 
-1. git clone
+1. git clone https://github.com/gprime31/amass-prime.git
 2. cd amass-prime/cmd/amass
-3. Download OWASP Amass by running `go install -v github.com/gprime31/Amass_3.23.3@latest`
-4. At this point, the binary should be in `$GOPATH/bin`
+3. go build
+4. ./amass
+(optional) cp amass ~/go/bin
 
 ## Documentation [![GoDoc](https://pkg.go.dev/badge/github.com/owasp-amass/amass/v3?utm_source=godoc)](https://pkg.go.dev/github.com/owasp-amass/amass/v3)
 
