@@ -9,9 +9,9 @@ import (
 
 	"github.com/caffix/service"
 	"github.com/caffix/stringset"
-	"github.com/owasp-amass/amass/v3/config"
-	"github.com/owasp-amass/amass/v3/datasrcs/scripting"
-	"github.com/owasp-amass/amass/v3/systems"
+	"github.com/gprime31/amass-prime/config"
+	"github.com/gprime31/amass-prime/datasrcs/scripting"
+	"github.com/gprime31/amass-prime/systems"
 )
 
 // GetAllSources returns a slice of all data source services initialized.
