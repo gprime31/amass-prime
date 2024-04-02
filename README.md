@@ -40,7 +40,7 @@ The OWASP Amass Project performs network mapping of attack surfaces and external
 
 ### Prebuilt Packages
 
-1. Simply unzip the [package]([https://github.com/gprime31/amass-prime/releases/latest])
+1. Simply unzip the [package](https://github.com/gprime31/amass-prime/releases/latest)
 2. Put the precompiled binary into your path
 3. Start using OWASP Amass!
 
