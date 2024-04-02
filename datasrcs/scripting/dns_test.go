@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/owasp-amass/amass/v3/requests"
+	"github.com/gprime31/amass-prime/requests"
 )
 
 func TestResolve(t *testing.T) {
