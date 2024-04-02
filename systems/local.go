@@ -17,7 +17,7 @@ import (
 	"github.com/caffix/netmap"
 	"github.com/caffix/service"
 	"github.com/gprime31/amass-prime/config"
-	amassnet "github.com/owasp-amass/amass/v3/net"
+	amassnet "github.com/gprime31/amass-prime/net"
 	"github.com/gprime31/amass-prime/requests"
 	"github.com/gprime31/amass-prime/resources"
 	"github.com/gprime31/amass-prime/resolve"
