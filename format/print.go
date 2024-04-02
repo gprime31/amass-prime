@@ -12,8 +12,8 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	amassnet "github.com/owasp-amass/amass/v3/net"
-	"github.com/owasp-amass/amass/v3/requests"
+	amassnet "github.com/gprime31/amass-prime/net"
+	"github.com/gprime31/amass-prime/requests"
 )
 
 // Banner is the ASCII art logo used within help output.
