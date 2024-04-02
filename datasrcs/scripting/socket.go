@@ -11,7 +11,7 @@ import (
 	"net"
 	"strconv"
 
-	amassnet "github.com/owasp-amass/amass/v3/net"
+	amassnet "github.com/gprime31/amass-prime/net"
 	lua "github.com/yuin/gopher-lua"
 )
 
