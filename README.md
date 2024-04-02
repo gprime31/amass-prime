@@ -44,26 +44,18 @@ The OWASP Amass Project performs network mapping of attack surfaces and external
 2. Put the precompiled binary into your path
 3. Start using OWASP Amass!
 
-#### Homebrew
 
-```bash
-brew tap owasp-amass/amass
-brew install amass
-```
 
-### Docker Container
 
-1. Install [Docker](https://www.docker.com)
-2. Pull the Docker image by running `docker pull caffix/amass`
-3. Run `docker run -v OUTPUT_DIR_PATH:/.config/amass/ caffix/amass enum -d example.com`
 
 The volume argument allows the Amass graph database to persist between executions and output files to be accessed on the host system. The first field (left of the colon) of the volume option is the amass output directory that is external to Docker, while the second field is the path, internal to Docker, where amass will write the output files.
 
 ### From Sources
 
-1. Install [Go](https://golang.org/doc/install) and setup your Go workspace
-2. Download OWASP Amass by running `go install -v github.com/gprime31/Amass_3.23.3@latest`
-3. At this point, the binary should be in `$GOPATH/bin`
+1. git clone
+2. cd amass-prime/cmd/amass
+3. Download OWASP Amass by running `go install -v github.com/gprime31/Amass_3.23.3@latest`
+4. At this point, the binary should be in `$GOPATH/bin`
 
 ## Documentation [![GoDoc](https://pkg.go.dev/badge/github.com/owasp-amass/amass/v3?utm_source=godoc)](https://pkg.go.dev/github.com/owasp-amass/amass/v3)
 
