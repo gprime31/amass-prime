@@ -8,8 +8,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/owasp-amass/amass/v3/config"
-	"github.com/owasp-amass/amass/v3/requests"
+	"github.com/gprime31/amass-prime/config"
+	"github.com/gprime31/amass-prime/requests"
 	"github.com/caffix/netmap"
 	"github.com/owasp-amass/resolve"
 	"github.com/caffix/service"
