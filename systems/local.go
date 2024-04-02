@@ -16,11 +16,11 @@ import (
 
 	"github.com/caffix/netmap"
 	"github.com/caffix/service"
-	"github.com/owasp-amass/amass/v3/config"
+	"github.com/gprime31/amass-prime/config"
 	amassnet "github.com/owasp-amass/amass/v3/net"
-	"github.com/owasp-amass/amass/v3/requests"
-	"github.com/owasp-amass/amass/v3/resources"
-	"github.com/owasp-amass/resolve"
+	"github.com/gprime31/amass-prime/requests"
+	"github.com/gprime31/amass-prime/resources"
+	"github.com/gprime31/amass-prime/resolve"
 )
 
 // LocalSystem implements a System to be executed within a single process.
