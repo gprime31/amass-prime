@@ -2,7 +2,7 @@ codecov:
   disable_default_path_fixes: yes
 
 fixes:
-  - "github.com/gprime31/Amass_3.23.3/"
+  - "github.com/gprime31/amass-prime/"
 
 ignore:
   - encode_optype.go
