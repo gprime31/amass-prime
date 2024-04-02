@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/owasp-amass/amass/v3/resources"
+	"github.com/gprime31/amass-prime/resources"
 )
 
 // AcquireScripts returns all the default and user provided scripts for data sources.
