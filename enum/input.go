@@ -16,8 +16,8 @@ import (
 	"github.com/caffix/queue"
 	"github.com/caffix/service"
 	amassnet "github.com/owasp-amass/amass/v3/net"
-	"github.com/owasp-amass/amass/v3/net/dns"
-	"github.com/owasp-amass/amass/v3/requests"
+	"github.com/gprime31/amass-prime/net/dns"
+	"github.com/gprime31/amass-prime/requests"
 	bf "github.com/tylertreat/BoomFilters"
 )
 
