@@ -12,10 +12,10 @@ import (
 	"github.com/caffix/pipeline"
 	"github.com/caffix/queue"
 	"github.com/caffix/service"
-	"github.com/owasp-amass/amass/v3/config"
-	"github.com/owasp-amass/amass/v3/datasrcs"
-	"github.com/owasp-amass/amass/v3/requests"
-	"github.com/owasp-amass/amass/v3/systems"
+	"github.com/gprime31/amass-prime/config"
+	"github.com/gprime31/amass-prime/datasrcs"
+	"github.com/gprime31/amass-prime/requests"
+	"github.com/gprime31/amass-prime/systems"
 )
 
 // Enumeration is the object type used to execute a DNS enumeration.
