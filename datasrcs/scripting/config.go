@@ -5,8 +5,8 @@
 package scripting
 
 import (
-	"github.com/owasp-amass/amass/v3/config"
-	"github.com/owasp-amass/amass/v3/format"
+	"github.com/gprime31/amass-prime/config"
+	"github.com/gprime31/amass-prime/format"
 	"github.com/caffix/service"
 	lua "github.com/yuin/gopher-lua"
 )
