@@ -1,4 +1,4 @@
-module github.com/gprime31/amass-prime/main
+module amass
 
 go 1.19
 
